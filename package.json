@@ -1,0 +1,25 @@
+{
+  "name": "project-tech",
+  "version": "1.0.0",
+  "description": "this is a project for blok tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123rvb123/hello-world.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/123rvb123/hello-world/issues"
+  },
+  "homepage": "https://github.com/123rvb123/hello-world#readme",
+  "dependencies": {
+    "camelcase": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
