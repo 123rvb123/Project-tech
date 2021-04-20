@@ -8,6 +8,13 @@ Met deze app wil ik dat mensen die fan zijn van MMA samenbrengen, en hiervan een
 ## Wat mijn feature doet
 Met deze applicatie kunnen mensen een account aanmaken, en direct hun 3 favoriete mma vechters toevoegen. Vervolgens als zij een account hebben, kunnen zij profielen van andere gebruikers zien, en hier contact mee opnemen. 
 
+## Hoe installeer ik dit project?
+Clone deze repository, dit kan gedaan worden door het te typen in een terminal of commandprompt.
+```
+git clone https://github.com/
+```
+
+
 
 
 
