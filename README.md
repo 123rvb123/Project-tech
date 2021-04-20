@@ -16,7 +16,7 @@ git clone https://github.com/123rvb123/Project-tech.git
 
 Installeer deze packages om alle modules te krijgen
 ```
-npm st art
+npm install
 ```
 
 Start de applicatie!
