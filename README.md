@@ -10,4 +10,4 @@ Met deze applicatie kunnen mensen een account aanmaken, en direct hun 3 favoriet
 
 
 ### Bronnen
-**https://www.sportspromedia.com/news/ufc-social-media-followers-2020-facebook-instagram-twitter-youtube-grabyo**
+Study: UFC’s Facebook following up 75% as social media numbers surge in 2020. (2021, 21 januari). sportspromedia.com. https://www.sportspromedia.com/news/ufc-social-media-followers-2020-facebook-instagram-twitter-youtube-grabyo
