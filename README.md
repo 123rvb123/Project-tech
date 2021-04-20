@@ -23,6 +23,7 @@ Start de applicatie!
 ```
 npm start
 ```
+De terminal zal vertellen op welke port de server staat. (voorbeeld localhost:3000) Deze typ of kopieer je in de browser om mijn project te zien.
 
 
 
