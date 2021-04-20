@@ -9,5 +9,5 @@ Met deze applicatie kunnen mensen een account aanmaken, en direct hun 3 favoriet
 
 
 
-
-https://www.sportspromedia.com/news/ufc-social-media-followers-2020-facebook-instagram-twitter-youtube-grabyo
+### Bronnen
+**https://www.sportspromedia.com/news/ufc-social-media-followers-2020-facebook-instagram-twitter-youtube-grabyo**
