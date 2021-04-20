@@ -1,1 +1,0 @@
-Hier kan ik contact gegevens plaatsen
