@@ -11,8 +11,19 @@ Met deze applicatie kunnen mensen een account aanmaken, en direct hun 3 favoriet
 ## Hoe installeer ik dit project?
 Clone deze repository, dit kan gedaan worden door het te typen in een terminal of commandprompt.
 ```
-git clone https://github.com/
+git clone https://github.com/123rvb123/Project-tech.git
 ```
+
+Installeer deze packages om alle modules te krijgen
+```
+npm st art
+```
+
+Start de applicatie!
+```
+npm start
+```
+
 
 
 
