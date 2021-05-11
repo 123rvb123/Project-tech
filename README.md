@@ -33,3 +33,6 @@ De terminal zal vertellen op welke port de server staat. (voorbeeld localhost:30
 
 ### Bronnen
 Study: UFC’s Facebook following up 75% as social media numbers surge in 2020. (2021, 21 januari). sportspromedia.com. https://www.sportspromedia.com/news/ufc-social-media-followers-2020-facebook-instagram-twitter-youtube-grabyo
+
+.gitignore. (z.d.). Atlassian. Geraadpleegd op 12 april 2021, van https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
