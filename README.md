@@ -1,5 +1,5 @@
 # MMAShare
-Mijn feature heet MMAshare. MMA staat voor "mixed martial arts" en share staat voor delen. MMA is de laatste jaren erg gestegen in populariteit. Elke paar weken & maanden zijn er "kaarten" waarop professionele MMA vechters vechten. Er zit erg veel hype bij veel van deze gevechten, hierdoor willen veel mensen dat zien. Helaas is MMA niet zo groot als sporten zoals voetbal of formule 1, en is het vaak moeilijk om mensen in je omgeving te vinden die deze interesse delen. Hier heeft MMAShare een oplossing voor.
+Mijn feature heet MMAshare. MMA staat voor "mixed martial arts" en share staat voor delen. MMA is de laatste jaren erg gestegen in populariteit. Elke paar weken & maanden zijn er "kaarten" waarop professionele MMA vechters vechten. Er zit erg veel hype bij veel van deze gevechten, hierdoor willen veel mensen dat zien. Helaas is MMA niet zo groot als sporten zoals voetbal of formule 1, en is het vaak moeilijk om mensen in je omgeving te vinden die deze interesse delen. Hier his MMAShare de oplossing voor.
 
 
 ## Wat dit project doet
