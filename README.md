@@ -30,6 +30,7 @@ Het project is te zien op port 3010. (localhost:3010)
 
 ## Gebruikte technologieën
 * Node.js
+* EJS
 * EXpress
 * Bcrypt
 * Passport
