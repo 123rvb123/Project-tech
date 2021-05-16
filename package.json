@@ -4,7 +4,7 @@
   "description": "this is a project for blok tech",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,24 @@
   },
   "homepage": "https://github.com/123rvb123/hello-world#readme",
   "dependencies": {
+    "404": "^1.1.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
     "camelcase": "^6.2.0",
-    "express": "^4.17.1"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.9",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
+    "dotenv": "^9.0.2",
     "nodemon": "^2.0.7"
   }
 }
