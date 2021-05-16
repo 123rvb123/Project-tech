@@ -8,7 +8,7 @@ Mijn feature heet MMAshare. MMA staat voor "mixed martial arts" en share staat v
 Met deze app wil ik dat mensen die fan zijn van MMA samenbrengen, en hiervan een community maken. Dit is zodat deze mensen hun interesse, ideeën, verwachtingen en discussies samen met elkaar kunnen delen. 
 
 ## Wat mijn feature doet
-Met deze applicatie kunnen mensen een account aanmaken, en direct hun favoriete mma vechters toevoegen. Vervolgens als zij een account hebben, kunnen zij profielen van andere gebruikers zien, en hier contact mee opnemen. 
+Met deze applicatie kunnen mensen een account aanmaken met een e-mail en wachtwoord. Vervolgens kunnen zij inloggen met deze e-mail en wachtwoord op hun eigen pagina. Daarnaast kunnen zij uitloggen en terug gaan naar het inlogscherm.
 
 ## Hoe installeer ik dit project?
 Clone deze repository, dit kan gedaan worden door het te typen in een terminal of commandprompt.
