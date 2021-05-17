@@ -2,6 +2,8 @@ if (process.env.NODE_ENV !== 'production') { //zet alle data in .env zodat het v
   require('dotenv').config()
 }
 
+const port = process.env.PORT || 3010
+
 const express = require('express')    //node js web application framework
 const app = express()
 const bcrypt = require('bcrypt')      //secure passwords met hashpasswords
@@ -28,7 +30,6 @@ app.set('views', __dirname + '/views')
    id => users.find(user => user.id === id)
  )
 
-const port = 3010
 let bodyParser = require('body-parser')
 
 const users = []    //users in lokaal variabel inplaats van database
