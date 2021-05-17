@@ -2,7 +2,8 @@ if (process.env.NODE_ENV !== 'production') { //zet alle data in .env zodat het v
   require('dotenv').config()
 }
 
-const port = process.env.PORT || 3010
+const PORT = process.env.PORT;
+const port = 3010
 
 const express = require('express')    //node js web application framework
 const app = express()
