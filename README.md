@@ -23,7 +23,7 @@ npm install
 
 Start de applicatie!
 ```
-npm start
+nodemon index.js
 ```
 Het project is te zien op port 3010. (localhost:3010)
 
