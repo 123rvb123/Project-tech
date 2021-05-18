@@ -32,12 +32,12 @@ Het project is te zien op port 3010. (localhost:3010)
 
 ## Gebruikte technologieën
 * Node.js
-* EJS
-* EXpress
-* Bcrypt
-* Passport
-* Flash
-* Session
+* [EJS](https://github.com/123rvb123/Project-tech/wiki/EJS)
+* [Express](https://github.com/123rvb123/Project-tech/wiki/Express-&-Bcrypt)
+* [Bcrypt](https://github.com/123rvb123/Project-tech/wiki/Express-&-Bcrypt)
+* [Passport](https://github.com/123rvb123/Project-tech/wiki/Passport-&-Flash-&-Session)
+* [Flash](https://github.com/123rvb123/Project-tech/wiki/Passport-&-Flash-&-Session)
+* [Session](https://github.com/123rvb123/Project-tech/wiki/Passport-&-Flash-&-Session)
 
 ### Bronnen
 Study: UFC’s Facebook following up 75% as social media numbers surge in 2020. (2021, 21 januari). sportspromedia.com. https://www.sportspromedia.com/news/ufc-social-media-followers-2020-facebook-instagram-twitter-youtube-grabyo
