@@ -76,6 +76,7 @@ button {
   font-weight: bold;
   border-radius: 6px;
   border-width: 5px;
+  margin-bottom:1.5em;
 }
 
 button:hover {
@@ -91,6 +92,14 @@ button:focus {
 
 a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
   cursor: pointer;
+}
+
+h3 {
+  font-weight: 10;
+}
+
+img {
+  margin-top: 10%;
 }
 
 /* bron:    split half html/css https://www.w3schools.com/howto/howto_css_split_screen.asp
