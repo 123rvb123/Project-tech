@@ -12,23 +12,30 @@ const flash = require('express-flash') //geeft berichten wanneer email of bijv. 
 const session = require('express-session') //zodat data van gebruiker op meerdere pagina's te gebruiken is
 const methodOverride = require('method-override')
 
-// const mongoose = require('mongoose')
-// mongoose.connect(process.env.DATABASE_URL, { 
-//   useNewUrlParser: true })
-// const db = mongoose.connection
-// db.on('error', error => console.error(error))
-// db.once('open', () => console.log('Connected to Mongoose'))
+const MongoClient = require('mongodb').MongoClient;
+
+// const uri = "mongodb+srv://test:test123@matchcluster.fynou.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+
+// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+// client.connect(err => {
+//   const collection = client.db("test").collection("devices");
+//   // perform actions on the collection object
+//   client.close();
+// });
+// run().catch(console.dir);
+
+// ///////
 
 
 app.set('view-engine', 'ejs')
 app.set('views', __dirname + '/views')
 
- const initializePassport = require('./passport-config')    //passport functie oproepen
- initializePassport(
-   passport,
-   email => users.find(user => user.email === email), //user vinden gebaseerd op email
-   id => users.find(user => user.id === id)
- )
+const initializePassport = require('./passport-config')    //passport functie oproepen
+initializePassport(
+  passport,
+  email => users.find(user => user.email === email), //user vinden gebaseerd op email
+  id => users.find(user => user.id === id)
+)
 
 let bodyParser = require('body-parser')
 
@@ -56,7 +63,7 @@ function checkAuthenticated(req, res, next) {   //als user authenticated is, ver
 }
 
 function checkNotAuthenticated(req, res, next) {  //als user niet authenticated is, terug naar index
-  if (req.isAuthenticated()) {  
+  if (req.isAuthenticated()) {
     return res.redirect('/')
   }
   next()
@@ -64,7 +71,7 @@ function checkNotAuthenticated(req, res, next) {  //als user niet authenticated 
 
 
 // Static files
-app.use(express.static('static')) 
+app.use(express.static('static'))
 app.use('/css', express.static(__dirname + 'static/css'))
 app.use('/js', express.static(__dirname + 'static/js'))
 app.use('/img', express.static(__dirname + 'static/img'))
@@ -112,7 +119,7 @@ app.delete('/logout', (req, res) => {
 
 
 app.get('/about', (req, res) => {
-  res.render('about', {text: 'About Page'})
+  res.render('about', { text: 'About Page' })
 })
 
 
@@ -121,6 +128,6 @@ app.listen(port, () => {
 })
 
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   res.status(404).send('Error 404! Deze pagina bestaat niet!');
 });

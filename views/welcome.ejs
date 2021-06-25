@@ -1,4 +1,3 @@
-
   <!DOCTYPE html>
 
 <html>
@@ -23,32 +22,10 @@
 
     
         <div class="centered">
+          <h1>Create an account or login</h1>
+          <button class="welcome"><a href="/users/register">Register</a></button>
+          <button class="welcome"><a href="/users/login">Login</a></button>
 
-        <h1>Login</h1>
-
-        <%- include ('./partials/messages'); %>
-
-        <form action="/users/login" method="POST">
-          <label for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            class="form-control"
-          />
-
-          <label for="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            class="form-control"
-          />
-
-          No account? <a href="/users/register">Register</a>
-
-            <button type="submit">Login</button>
-        </form>
         
         </div>
 

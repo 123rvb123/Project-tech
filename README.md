@@ -1,46 +1,55 @@
-![Logo](https://i.imgur.com/HKE16gm.png)
+# Petscout-pt
+Project Tech Team repository 2021 van:
+- Cesar van Hardeveld
+- Raekwon Gerold
+- Remco van Bruggen
 
-# MMAShare
-Mijn feature heet MMAshare. MMA staat voor "mixed martial arts" en share staat voor delen. MMA is de laatste jaren erg gestegen in populariteit. Elke paar weken & maanden zijn er "kaarten" waarop professionele MMA vechters vechten. Er zit erg veel hype bij veel van deze gevechten, hierdoor willen veel mensen dat zien. Helaas is MMA niet zo groot als sporten zoals voetbal of formule 1, en is het vaak moeilijk om mensen in je omgeving te vinden die deze interesse delen. Hier his MMAShare de oplossing voor.
+## Table of Contents 🗂
+
+1. 📁 Installation
+2. 💡 Topics
+3. 📦 Packages
+4. ➕ Extensions
+5. 🏡 Static Homepage
+6. 👮 License
+
+# Petscout app
+
+Deze app is gemaakt voor CMD Blok Tech.
 
 
-## Wat dit project doet
-Met deze app wil ik dat mensen die fan zijn van MMA samenbrengen, en hiervan een community maken. Dit is zodat deze mensen hun interesse, ideeën, verwachtingen en discussies samen met elkaar kunnen delen. 
+# Installation
+```js
+1. git clone https://github.com/Falicer/petscout-pt.git
 
-## Wat mijn feature doet
-Met deze applicatie kunnen mensen een account aanmaken met een e-mail en wachtwoord. Vervolgens kunnen zij inloggen met deze e-mail en wachtwoord op hun eigen pagina. Daarnaast kunnen zij uitloggen en terug gaan naar het inlogscherm.
+2. cd petscout-pt
 
-## Hoe installeer ik dit project?
-Clone deze repository, dit kan gedaan worden door het te typen in een terminal of commandprompt.
+3. npm install or npm i
 ```
-git clone https://github.com/123rvb123/Project-tech.git
+
+You'll need to setup a `.env` file with these values:
+
+```env
+MONGO_CONN_STRING=mongodb+srv://Falicer:test@projecttech2021.ftuuw.mongodb.net/test
 ```
 
-Installeer deze packages om alle modules te krijgen
-```
-npm install
-```
+## Topics
+Cesar van Hardeveld | Raekwon Gerold | Remco van Bruggen
+------------ | ------------- | -------------
+[Fetch a public external API from the server and render that data](https://github.com/Falicer/petscout-pt/wiki/Fetch-external-API) | [App deployment](https://github.com/Falicer/petscout-pt/wiki/App-Deployment) | [Passport.js](https://github.com/Falicer/petscout-pt/wiki/Passport.js)
+[Matching](https://github.com/Falicer/petscout-pt/wiki/matching) | [Implement real-time data with socket.io](https://github.com/Falicer/petscout-pt/wiki/Socket.io) | (optional)
 
-Start de applicatie!
-```
-nodemon index.js
-```
-Het project is te zien op port 3010. (localhost:3010)
+## Packages
+For the packages we used, please refer to our Wiki:  
+[Npm packages](https://github.com/Falicer/petscout-pt/wiki/NPM-Packages)
 
+## Extensions (optional to use, I would recommend it!)
+For the extensions we used, please refer to our Wiki:  
+[Recommended extensions](https://github.com/Falicer/petscout-pt/wiki/Extensions)
 
+# Static homepage
+For our deployed site, please refer to the following link:  
+[Deployed site](https://project-tech-petscout.herokuapp.com/)
 
-
-## Gebruikte technologieën
-* Node.js
-* [EJS](https://github.com/123rvb123/Project-tech/wiki/EJS)
-* [Express](https://github.com/123rvb123/Project-tech/wiki/Express-&-Bcrypt)
-* [Bcrypt](https://github.com/123rvb123/Project-tech/wiki/Express-&-Bcrypt)
-* [Passport](https://github.com/123rvb123/Project-tech/wiki/Passport-&-Flash-&-Session)
-* [Flash](https://github.com/123rvb123/Project-tech/wiki/Passport-&-Flash-&-Session)
-* [Session](https://github.com/123rvb123/Project-tech/wiki/Passport-&-Flash-&-Session)
-
-### Bronnen
-Study: UFC’s Facebook following up 75% as social media numbers surge in 2020. (2021, 21 januari). sportspromedia.com. https://www.sportspromedia.com/news/ufc-social-media-followers-2020-facebook-instagram-twitter-youtube-grabyo
-
-.gitignore. (z.d.). Atlassian. Geraadpleegd op 12 april 2021, van https://www.atlassian.com/git/tutorials/saving-changes/gitignore
-
+# License
+MIT

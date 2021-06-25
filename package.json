@@ -1,41 +1,27 @@
 {
-  "name": "project-tech",
+  "name": "loginapp",
   "version": "1.0.0",
-  "description": "this is a project for blok tech",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/123rvb123/hello-world.git"
-  },
+  "keywords": [],
   "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/123rvb123/hello-world/issues"
-  },
-  "homepage": "https://github.com/123rvb123/hello-world#readme",
+  "license": "ISC",
   "dependencies": {
-    "404": "^1.1.1",
-    "bcrypt": "^5.0.1",
-    "body-parser": "^1.19.0",
-    "camelcase": "^6.2.0",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "express-ejs-layouts": "^2.5.0",
-    "express-flash": "^0.0.2",
-    "express-session": "^1.17.1",
-    "method-override": "^3.0.0",
-    "mongodb": "^3.6.6",
-    "mongoose": "^5.12.9",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.12.13",
     "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "pug": "^3.0.2"
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "dotenv": "^9.0.2",
     "nodemon": "^2.0.7"
   }
 }
